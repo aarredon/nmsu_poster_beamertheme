@@ -1,0 +1,66 @@
+%
+% Created 2015/02/17 by Antonio Arredondo <aarredon@cs.nmsu.edu>
+%
+% This tex/latex can be redistributed and/or modified under the terms
+% of the GNU Public License Version 2.
+%
+% Based off the latex beamer template from 
+% http://www-i6.informatik.rwth-aachen.de/~dreuw/latexbeamerposter.php
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                            
+% Poster Macro definitions 
+%                                                                               
+% Define your university or organization, poster title, name ...
+\newcommand{\UniName}{New Mexico State University}                              
+\newcommand{\UniDeptName}{Computer Science}                              
+\newcommand{\PosterTitle}{Poster Title}                              
+\newcommand{\PosterAuthors}{Poster Authors}                          
+\newcommand{\PresentationDate}{March 18th, 2015}
+\newcommand{\WebAddress}{\url{http://www.cs.nmsu.edu/~aarredon/}}                                     
+\newcommand{\EmailAddress}{aarredon@cs.nmsu.edu}                                     
+ 
+\documentclass[final]{beamer} 
+\mode<presentation> {  
+  % This uses the LasCruces theme in portrait orientation
+  \usetheme{LasCrucesPort}    
+}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath,amsthm, amssymb, latexsym}
+\usefonttheme[onlymath]{serif}
+\boldmath
+
+%%% For custom size poster
+\usepackage[size=custom,width=107,height=107,scale=2,debug]{beamerposter}                     
+%%% For DIN-A0 poster
+%\usepackage[orientation=portrait,size=a0,scale=1.4,debug]{beamerposter}                       
+%%% For DIN-A0 poster with rwth-glossy-uv printer check
+%\usepackage[orientation=portrait,size=a0,scale=1.0,printer=rwth-glossy-uv.df]{beamerposter}  
+%%% For DIN-A1 poster, with optional grid and debug output 
+%\usepackage[orientation=portrait,size=a1,scale=1.4,grid,debug]{beamerposter}                  
+
+% Poster Content below
+\title[\PosterTitle]{\PosterTitle}
+\author[\PosterAuthors]{\PosterAuthors}
+\institute[\UniName]{\UniDeptName ,\UniName}
+\date{\PresentationDate}
+\begin{document}
+\begin{frame}{} 
+  \vfill
+  \begin{block}{\large Fontsizes}
+    \centering
+    {\tiny tiny}\par
+    {\scriptsize scriptsize}\par
+    {\footnotesize footnotesize}\par
+    {\normalsize normalsize}\par
+    {\large large}\par
+    {\Large Large}\par
+    {\LARGE LARGE}\par
+    {\veryHuge veryHuge}\par
+    {\VeryHuge VeryHuge}\par
+    {\VERYHuge VERYHuge}\par
+  \end{block}
+  \vfill
+\end{frame}
+\end{document}
+
