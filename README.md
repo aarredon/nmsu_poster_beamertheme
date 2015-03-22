@@ -8,7 +8,7 @@ is located.
 ## Installing a custom theme
 
 #### Working directory
-Copy the file *beamerthemeLasCruces.sty* to your working directory.
+Copy the file *beamerthemeLasCruces.sty* and *colorsLasCruces.sty* to your working directory.
 
 #### Not in working directory
 If you are going to use the theme often, it is best to "install" it.  If my **$HOME** 
