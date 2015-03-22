@@ -1,3 +1,7 @@
+# ignore vim swp files
+*.swp
+COMMIT_MESSAGE
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
